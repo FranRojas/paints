@@ -13,4 +13,3 @@ function addToList(){
     myPaints.push();
 
 };  
-
