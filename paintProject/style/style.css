@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 24px;
+ 
 }
 .header {
     display: grid;
@@ -18,7 +19,10 @@
 .body-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    background-color: rgb(190, 188, 188);
+    height: 100vh;
+  
   
 }
 .formctn{
@@ -44,7 +48,7 @@
 #newBtn {
 
     border: 2px solid black;
-    background-color: white;
+    background-color: rgb(190, 188, 188);
     color: black;
     padding: 14px 28px;
     font-size: 16px;
